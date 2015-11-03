@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\renderer.cpp" />
+    <ClCompile Include="src\game_core.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_core_event.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_core_init.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_core_render.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_core_update.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event_listener.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event_manager.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_context.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render2D_math.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string_helper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\void_d_ptr.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\global.h" />
+    <ClInclude Include="src\renderer.h" />
+    <ClInclude Include="src\event_listener.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event_manager.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_context.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render2D_typedef.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render2D_math.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\r_ptr.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\string_helper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\void_d_ptr.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="render2d_exports\base_render2d_context.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="render2d_exports\game_core.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameCore">
+      <UniqueIdentifier>{0f49aea2-51e1-48f0-9a98-c6c5ca7ddffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{7839797a-ae5c-4897-97ed-bda1c36ac58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{e957f10d-786c-4258-9118-ed118b33f101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{555adbfb-f029-41e9-8322-dd5b68cfe9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exports">
+      <UniqueIdentifier>{02bad42a-b83e-4d0d-9017-cac9123ce8ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
